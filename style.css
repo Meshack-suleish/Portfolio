@@ -299,3 +299,123 @@ footer {
     padding: 0.4rem 0.8rem;
   }
 }
+
+
+/* Modern Contact Card */
+.contact-section {
+  padding: 4rem 10%;
+  text-align: center;
+}
+
+.contact-sub {
+  color: #9ca3af;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.contact-card {
+  background: #161b22;
+  border: 1px solid rgba(0, 216, 255, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem;
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  box-shadow: 0 0 25px rgba(0, 216, 255, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-item {
+  background: #0d1117;
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 216, 255, 0.15);
+  box-shadow: 0 0 10px rgba(0, 216, 255, 0.05);
+}
+
+.contact-item h3 {
+  margin-top: 0.5rem;
+  color: #00d8ff;
+  font-size: 1.2rem;
+}
+
+.contact-item p {
+  margin-top: 0.3rem;
+  color: #e6edf3;
+}
+
+.contact-item a {
+  color: #00d8ff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: #00b8e6;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.contact-socials {
+  grid-column: span 3;
+  padding-top: 1rem;
+}
+
+.contact-socials h3 {
+  color: #00d8ff;
+  margin-bottom: 0.8rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #00d8ff;
+}
+
+/* Mobile Fix */
+@media (max-width: 600px) {
+  .contact-socials {
+    grid-column: span 1;
+  }
+}
+
+/* Social icons with text */
+.social-text-mode a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #0d1117;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 216, 255, 0.2);
+  margin: 0.4rem;
+  color: #e6edf3;
+  transition: 0.3s ease;
+}
+
+.social-text-mode a i {
+  color: #00d8ff;
+}
+
+.social-text-mode a:hover {
+  background: #00d8ff;
+  color: #0d1117;
+  transform: translateY(-3px);
+}
+
+.social-text-mode a:hover i {
+  color: #0d1117;
+}
