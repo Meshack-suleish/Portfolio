@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+     "id" : "wedinet",
+     "title": "WediNet",
+     "description": "A website discovery network for sahring and exploring web apps beyond imagination.",
+     "image": "images/wedinet.png",
+     "url": "https://wedinet.com",
+     "tags": ["Web"]
+
+    },
+    {
+      "id": "afya",
+      "title": "Afya na Raha",
+      "description": "A website for ordering natural medicine and health products.",
+      "image": "images/afya.png",
+      "url": "https://afyanaraha.pythonanywhere.com/",
+      "tags": ["Flask", "Python", "Web"]
+    },
+    {
+      "id": "coders",
+      "title": "CodersTalking",
+      "description": "A community platform to bring coders together and share knowledge.",
+      "image": "images/coders.png",
+      "url": "https://coderstalking.vercel.app",
+      "tags": ["React", "Frontend"]
+    },
+    {
+      "id": "bibleplus",
+      "title": "BiblePlus",
+      "description": "A modern mobile application containing the Bible and small learning games.",
+      "image": "images/plus.png",
+      "url": "https://github.com/Meshack-suleish/BiblePlus",
+      "tags": ["React Native", "Mobile"]
+    },
+    {
+      "id": "tushikane",
+      "title": "Tushikane",
+      "description": "An Android app for donating unused items within college communities.",
+      "image": "https://placehold.co/600x400",
+      "url": "https://github.com/Meshack-suleish/Tushikane",
+      "tags": ["Android", "Mobile"]
+    },
+    {
+      "id": "faishare",
+      "title": "FaiShare",
+      "description": "An offline document sharing and Live presentation Android application for students.",
+      "image": "images/faishare.jpeg",
+      "url": "https://github.com/Meshack-suleish/FaiShare",
+      "tags": ["Android", "Utility"]
+    }
+  ]
+}

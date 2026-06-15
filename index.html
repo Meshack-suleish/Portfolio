@@ -29,7 +29,10 @@
       <h1>Hello, I'm <span>Meshack Mussa</span></h1>
       <h2>Software Developer & ML Engineer</h2>
       <p>I build interactive, efficient, and intelligent applications powered by modern technologies.</p>
-      <a href="#projects" class="btn">View Works</a>
+      <div class="hero-cta">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
     </div>
     <div class="hero-image">
       <img src="images/meshack.jpg" alt="Meshack portrait" />
@@ -71,54 +74,12 @@
 
   <!-- Projects Section -->
   <section id="projects" class="fade-in">
-    <h2>Featured Projects</h2>
-    <div class="projects-grid">
-
-      <div class="project-card">
-        <img src="images/afya.png" alt="Project 1" />
-        <div class="project-info">
-          <h3>Afya na Raha</h3>
-          <p>This is a website for ordering natural medicine for curing human diseases.</p>
-          <a href="https://afyanaraha.pythonanywhere.com/" target="_blank" class="btn-sm">View Project</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="images/coders.png" alt="Project 2" />
-        <div class="project-info">
-          <h3>CodersTalking</h3>
-          <p>A platform to bring coders together inspiring them and growing together.</p>
-          <a href="https://coderstalking.vercel.app" target="_blank" class="btn-sm">View Project</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="images/plus.png" alt="Project 2" />
-        <div class="project-info">
-          <h3>BiblePlus</h3>
-          <p>A morden mobile application that contain bible and games to practice what you learn.</p>
-          <a href="https://github.com/Meshack-suleish/BiblePlus" target="_blank" class="btn-sm">View Project</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="https://placehold.co/100x100" alt="Project 2" />
-        <div class="project-info">
-          <h3>Tushikane</h3>
-          <p>A android mobile application for donating unused items in colleges.</p>
-          <!-- <a href="#" target="_blank" class="btn-sm ">View project</a> -->
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="https://placehold.co/100x100" alt="Project 2" />
-        <div class="project-info">
-          <h3>Faishare</h3>
-          <p>A android mobile application for sharing documents offline.</p>
-          <!-- <a href="#" target="_blank" class="btn-sm ">View project</a> -->
-        </div>
-      </div>
-
+    <div class="projects-header">
+      <h2>Featured Projects</h2>
+      <p class="projects-sub">Selected projects demonstrating full-stack development, mobile apps, and ML integrations.</p>
+    </div>
+    <div id="projects-grid" class="projects-grid" aria-live="polite">
+      <!-- Projects will be loaded here from projects.json -->
     </div>
   </section>
 
@@ -173,7 +134,7 @@
 </section>
 
   <footer>
-    <p>© 2026 Meshack Suleish | Built using HTML, CSS, and JS</p>
+    <p>© 2026 Meshack Suleish | Software Developer</p>
   </footer>
 
   <script src="script.js"></script>
